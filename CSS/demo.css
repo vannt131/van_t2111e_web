@@ -1,0 +1,21 @@
+h1{
+    color: red;
+}
+p{
+    /*color: green;*/
+    /*color: rgb(0,255,0);*/
+    color: #00FF08; /*hexa*/
+    font-size: 15px; /* phông chữ */
+    font-weight: 400; /* độ đậm nhạt của chữ */
+    text-align: left; /* căn lề chữ: left-trái, right-phải, center-giữa, Justify-căn đều */
+    line-height: 1.5; /* độ cao (giãn dòng) của dòng (1.5*15px -> 22.5px)*/
+    font-family: "Times New Roman"; /* Kiểu chữ */
+    text-indent: 20px; /**/
+    width: 800px; /* fix độ dài để xuống dòng */
+    background-color: #EEEBAA; /* màu nền */
+    border-bottom: 1px solid #DAA520; /* viền dưới */
+}
+a{
+    text-decoration: underline; /*gạch chữ*/
+    text-transform: none; /**/
+}

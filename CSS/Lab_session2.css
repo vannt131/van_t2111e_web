@@ -1,0 +1,46 @@
+h4 {
+    color: #af617c;
+    font-family: Arial;
+    font-size: 13px;
+}
+p{
+    font-family: Arial;
+    width: 800px;
+    font-size: 13px;
+}
+ul{
+    font-family: Arial;
+    list-style: none;
+    width: 800px;
+    font-size: 13px;
+}
+.Column{
+    width: 800px;
+    height: 160px;
+    border-bottom: #af617c dashed 2px;
+}
+#Column1{
+    float: left;
+    width: 120px;
+    height: 160px;
+}
+#Column2{
+    float: right;
+    width: 680px;
+    height: 160px;
+    text-align: right;
+}
+.Column3{
+    width: 800px;
+    border-bottom: #af617c dashed 2px;
+}
+
+.loi{
+    width: 800px;
+    height: 100px;
+}
+.loi1{
+    float: left;
+    width: 300px;
+}
+
