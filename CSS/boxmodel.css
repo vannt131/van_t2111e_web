@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #fafafa;
+    color: #242424;
+    font-size: 14px;
+    line-height: 1.25;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;/* font backup */
+    text-align: left;/* center */
+}
+div{
+    width: 350px;
+    height: 350px;
+    /*border: 1px solid #385838;*/
+    /*
+     border-top
+     border-right
+     border-bottom
+     border-left
+     */
+    float:left;/* left right  none */
+    margin: 10px 15px;
+    /*margin-top:-10px;*/
+    /*
+    margin-top:10px;
+    margin-right:15px;
+    margin-bottom:10px;
+    margin-left:15px;
+    1. giá trị đầu luôn luôn là top
+    2. Nhận giá trị theo chiều kim đồng hồ
+    3. Giá trị chiều bị thiếu sẽ lấy chiều ngược của nó
+     */
+    padding: 15px;
+    box-sizing: border-box;/* content-box */
+    border-radius: 5px;
+    box-shadow: 0 0 10px #aaaaaa;
+}
+img{
+    max-width: 100%;/* nếu ảnh bé hơn khung thì giữ nguyên, to hơn thi thu nhỏ lại */
+}
+#tech{
+    background-color: #EEE8AA;
+}
+.barca{
+    background-color: azure;
+}
+#tech p{
+    color: orange;
+}
+body .barca p{
+    color: goldenrod;
+}
+#tech .tech p{
+
+}
+/* thứ tư ưu tiên tác dụng css
+1. Thứ tự xuất hiện: xuất hiện sau cao hơn
+2. cha con -> thẻ
+2. dùng class
+3. cấu trúc cha con > class
+4. id
+5. cha con -> id
+ */
+html body #demo #p-demo{
+    color: darkred;
+}
+#demo #p-demo{
+    color: dodgerblue;
+}
+.abc #p-demo{
+    color: darkblue;
+}
+#p-demo{
+    color: deeppink;
+}
+.abc .p-demo{
+    color: violet;
+}
+.p-demo{
+    color: gold;
+}
+div p{
+    color: yellow;
+}
+p{
+    color: red;
+}
+p{
+    color: green;
+}
+/*
+thẻ < class < id (3 cấp ưu tiên)
+cấp độ < cha con + cấp độ
+ */
+.abc{
+    background-image: url("../image/AnhThe1.jpg");
+    background-size: cover;
+}
