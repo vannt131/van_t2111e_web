@@ -1,0 +1,42 @@
+body{
+    background-color: #f2f2f2;
+}
+img{max-width: 100%;}
+.block-title{
+    background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.block-title h1{
+    font-size: 18px;
+    font-weight: 700;
+}
+.item{
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+.item .item-desc{
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+.item-desc h2{
+    font-size: 16px;
+    font-weight: 600;
+}
+.item-desc p{
+    font-size: 14px;
+}
+.item-desc span{
+    font-size: 15px;
+    font-weight: 600;
+}
+.item .details{
+    width: 100%;
+    background-color: #232122;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 0;
+}
